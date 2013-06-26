@@ -16,13 +16,25 @@ Then to sync up:
 
     repo sync
 
-Building
---------
+Building (Only for Pico)
+------------------------
 
-Now run our build script:
+Place the vendor blobs from here-- https://github.com/7alvi/ics-vendor-pico
+In vendor/htc/pico/ (create the directories)
 
-    ./build-tb.sh -device-
+Go to hardware/qcom/ and delete the legacy folders
 
-example:
+Download display-legacy from here-- https://github.com/7alvi/android_hardware_qcom_display-legacy-1
+Place it in hardware/qcom/
+rename the folder as display-legacy
 
-    ./build-tb.sh mako
+--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+
+Run
+
+. build/envsetup.sh
+
+Run
+
+brunch thinkingbridge_pico-userdebug -j3
