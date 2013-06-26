@@ -1,4 +1,5 @@
 add_lunch_combo thinkingbridge_maguro-userdebug
+add_lunch_combo thinkingbridge_pico-userdebug
 add_lunch_combo thinkingbridge_mako-userdebug
 add_lunch_combo thinkingbridge_manta-userdebug
 add_lunch_combo thinkingbridge_grouper-userdebug
